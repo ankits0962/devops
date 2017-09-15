@@ -32,7 +32,7 @@ Task("Pack")
                                     Authors                 = new[] {"Derek Comartin"},
                                     Description             = "Demo of creating cake.build scripts.",
                                     Summary                 = "Excellent summary of what the Cake (C# Make) build tool does.",
-                                    ProjectUrl              = new Uri("https://github.com/dcomartin/Cake.Demo"),
+                                    ProjectUrl              = new Uri("https://github.com/ankits0962/devops/tree/master/devops"),
                                     Files                   = new [] {
                                                                         new NuSpecContent {Source = "CakeDemo.exe", Target = "bin"},
                                                                       },
