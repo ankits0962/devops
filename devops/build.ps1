@@ -1,36 +1,6 @@
 
 
 
-.SYNOPSIS
-This is a Powershell script to bootstrap a Cake build.
-
-.DESCRIPTION
-This Powershell script will download NuGet if missing, restore NuGet tools (including Cake)
-and execute your Cake build script with the parameters you provide.
-
-.PARAMETER Script
-The build script to execute.
-.PARAMETER Target
-The build script target to run.
-.PARAMETER Configuration
-The build configuration to use.
-.PARAMETER Verbosity
-Specifies the amount of information to be displayed.
-.PARAMETER Experimental
-Tells Cake to use the latest Roslyn release.
-.PARAMETER WhatIf
-Performs a dry run of the build script.
-No tasks will be executed.
-.PARAMETER Mono
-Tells Cake to use the Mono scripting engine.
-.PARAMETER SkipToolPackageRestore
-Skips restoring of packages.
-.PARAMETER ScriptArgs
-Remaining arguments are added here.
-
-
-
-#>
 
 [CmdletBinding()]
 Param(
